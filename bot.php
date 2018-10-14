@@ -1,8 +1,8 @@
 <?php
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
-$channelAccessToken = 'YOUR_CHANNEL_ACCESS _TOKEN'; //sesuaikan 
-$channelSecret = 'YOUR_CHANNEL_SECRET';//sesuaikan
+$channelAccessToken = 'AByOIlgqRGw40mMV9ujiaiXtN8KyjieSd3cfn/oglpOJWuuGz2ySg8ytu5QXfXnq+R9mOipbbY8SuoQSYY5GxgV0gXdfzr9s2Sg5Hc8RM3CWsGeXaI9fIbhJlDntVLEzthSmjt8DdFzbmL6KaMvipAdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = '4116ea8b37460bd385dfeac3c82e3eec';//sesuaikan
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId     = $client->parseEvents()[0]['source']['userId'];
 $groupId    = $client->parseEvents()[0]['source']['groupId'];
@@ -513,7 +513,7 @@ if($message['type']=='text') {
             'messages' => array( 
                 array ( 
                         'type' => 'template', 
-                          'altText' => 'About Creator BedBotdzs', 
+                          'altText' => 'About Creator Bot', 
                           'template' =>  
                           array ( 
                             'type' => 'buttons', 
@@ -521,15 +521,15 @@ if($message['type']=='text') {
                             'imageAspectRatio' => 'rectangle', 
                             'imageSize' => 'cover', 
                             'imageBackgroundColor' => '#FFFFFF', 
-                            'title' => 'Muhammad Raihan Permadi', 
-                            'text' => 'Creator BedBotdzs', 
+                            'title' => 'M.WiraYudhaP', 
+                            'text' => 'Creator Bot', 
                             'actions' =>  
                             array ( 
                               0 =>  
                               array ( 
                                 'type' => 'uri', 
                                 'label' => 'Contact', 
-                                'uri' => 'https://line.me/ti/p/~rhnprmd', 
+                                'uri' => 'https://line.me/ti/p/%40has6814j', 
                               ), 
                             ), 
                           ), 
