@@ -521,7 +521,7 @@ if($message['type']=='text') {
                             'imageAspectRatio' => 'rectangle', 
                             'imageSize' => 'cover', 
                             'imageBackgroundColor' => '#FFFFFF', 
-                            'title' => 'Muhammad Raihan Permadi', 
+                            'title' => 'ƴ) yudha', 
                             'text' => 'Creator BedBotdzs', 
                             'actions' =>  
                             array ( 
@@ -529,7 +529,7 @@ if($message['type']=='text') {
                               array ( 
                                 'type' => 'uri', 
                                 'label' => 'Contact', 
-                                'uri' => 'https://line.me/ti/p/~rhnprmd', 
+                                'uri' => 'https://line.me/ti/p/%40has6814j', 
                               ), 
                             ), 
                           ), 
